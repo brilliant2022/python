@@ -1,5 +1,6 @@
 import turtle
 import random
+import os
 turtle_stamp=turtle.Turtle()
 turtle_stamp.shape('turtle')
 turtle_stamp.color('green')
@@ -23,3 +24,4 @@ for i in range(50):
     turtle_stamp.right(25)
 pen=turtle.Turtle()
 pen.write("Turtle's home!",font=("OpenSans",15,"normal"))
+os.system("pause")
