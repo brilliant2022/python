@@ -20,7 +20,7 @@ elif compare(player_1_choice,player_2_choice)==2:
     print(f"{player_2} is winner!")
 elif compare(player_1_choice,player_2_choice)==3:
     print("It is equal!")
-os.system("cls")
+os.system("pause")
     
                
 
