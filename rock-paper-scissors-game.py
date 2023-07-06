@@ -13,7 +13,6 @@ def compare(item_1,item_2):
     else:
         return("This is a wrong situation.")
 player_1_choice=input("%s,which one is your gesture? 石頭=石頭 剪刀=剪刀 布=布"%player_1)
-os.system("cls")
 player_2_choice=input("%s,which one is your gesture? 石頭=石頭 剪刀=剪刀 布=布"%player_2)
 if compare(player_1_choice,player_2_choice)==1:
     print(f"{player_1} is winner!")
@@ -21,6 +20,7 @@ elif compare(player_1_choice,player_2_choice)==2:
     print(f"{player_2} is winner!")
 elif compare(player_1_choice,player_2_choice)==3:
     print("It is equal!")
+os.system("cls")
     
                
 
